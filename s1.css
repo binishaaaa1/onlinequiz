@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro'); 
+
+* {
+  margin-left: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#create-submit {
+  background-color: green;
+  padding: 5px;
+  margin-top:10px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 0px;
+  margin-right: 0px;
+  max-width: 1024px;
+  margin: auto;
+}
+
+button {
+  cursor: pointer;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 13px;
+  color: #FFF;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+header {
+  width: calc(100% - 30px);
+  height: 60px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form input {
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+}
+
+textarea {
+  border: none;
+  border-radius: 4px;
+  background-color: #F6F6F6;
+  padding: 0 15px;
+  padding-top: 8px;
+}
+
+.button-red {
+  background-color: #E74C3C !important;
+}
+
+.nav-header-main {
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.nav-header-main ul {
+  height: 100%;
+}
+
+.nav-header-main ul li {
+  list-style: none;
+  float: left;
+  height: 100%;
+}
+
+.nav-header-main ul li a {
+  display: block;
+  height: 100%;
+  padding: 0 10px;
+  border-radius: 6px;
+  line-height: 22px;
+  font-size: 20px;
+  color: #111;
+}
+
+.header-login {
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-login form {
+  height: 100%;
+}
+
+.header-login a {
+  line-height: 33px;
+  font-size: 16px;
+}
+
+
+
+.header-login form input {
+  width: 160px;
+  padding: 0 15px;
+  float: left;
+  margin-left: 8px;
+}
+
+
+.header-login form button {
+  padding: 0 10px;
+  margin-left: 8px;
+  background-color: #333;
+}
+
+.main-wrapper {
+  width: 96%;
+  min-height: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: flex-start;
+  background-color: white;
+  border: 3px solid rgb(183, 181, 181);
+  height: 500px;
+  background-color: #FAF3F0;
+}
+
+.main-wrapper hr {
+  width: 100%;
+
+}
+
+.title {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #E5E8E8;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.links li {
+  list-style-type: none;
+}
+
+.main-wrapper table {
+  border-collapse: collapse;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.main-wrapper table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.signup-form{
+  height: 100%;
+
+}
+
+.signup-form ul li {
+  list-style-type: none;
+}
+
+.signup-form form input{
+  width: 300px;
+  margin-bottom: 8px;
+  padding: 0 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+}
+
+.signup-form form button {
+  height: 2.5em;
+  padding: 0 10px;
+  background-color: #333;
+}
+
+
+.table-btn form{
+  height: 100%;
+  width: 100%;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.dashboard-container a {
+  margin-bottom: 15px;
+}
+
+.dashboard-container a:hover {
+  background-color: #F6F6F6;
+}
+.dashboard-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+  width: 150px;
+
+}
+
+.dashboard-item img {
+  height: 100px;
+  width: 100px;
+}
+
+table {
+  line-height: 30px;
+}
+
+th, td {
+  text-align: left;
+}
+
+table, td, th {
+
+}
+
+.quiz-edit {
+
+}
+
+.account-form li {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.account-form li label {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.account-form li label + * {
+  flex: 1 0 220px;
+}
+
+.account-form li button {
+  height: 2.5em;
+  padding: 0 10px;
+  background-color: #3498DB;
+  margin-left: 3px;
+}
+
+.account-form li input {
+  padding: 0 15px;
+}
+
+.generic {
+  height: 2.5em;
+  padding: 0 10px;
+  background-color: #3498DB;
+}
+
+.generic a {
+  color: #FFF;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.list hr {
+  height: 0.5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.list button {
+  width: 8em;
+  height: 2em;
+  background-color: #3498DB;
+}
